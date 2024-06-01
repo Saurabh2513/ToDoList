@@ -8,3 +8,6 @@ save to do list in local data base.
 
 2. popup the dailog box. and save the ToDo list.
 ![DialogBox](https://github.com/Saurabh2513/ToDoList/assets/89311673/4eb994d8-e84c-493c-ad13-268edaafacb6)
+
+3. User also Delete task in ToDo List
+![deleteToDo](https://github.com/Saurabh2513/ToDoList/assets/89311673/a2211cc1-a0b7-4436-9219-631967e785e9)
