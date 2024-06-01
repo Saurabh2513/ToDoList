@@ -26,7 +26,7 @@ class ToDoTile extends StatelessWidget {
           children: [
             SlidableAction(onPressed: deleteFunction,
             icon: Icons.delete,
-              backgroundColor: Colors.red.shade300,
+              backgroundColor: Colors.red,
               borderRadius: BorderRadius.circular(12),
             )
           ],
@@ -34,7 +34,7 @@ class ToDoTile extends StatelessWidget {
         child: Container(
           padding: EdgeInsets.all(24.0),
           decoration: BoxDecoration(
-            color: Colors.yellow,
+            color: Colors.blueGrey[50],
             borderRadius: BorderRadius.circular(12),
           ),
           child: Row(children: [
@@ -47,8 +47,10 @@ class ToDoTile extends StatelessWidget {
 
             // task name
             Text(
+
               taskName,
               style: TextStyle(
+                fontSize: 18,
                   decoration: taskCompleted
                       ? TextDecoration.lineThrough
                       : TextDecoration.none),
